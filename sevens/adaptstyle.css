@@ -1,0 +1,190 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	
+}
+html {
+	width: calc(100% - 25px);
+	background-color: #878F9B; 
+}
+#Parent {
+	width: 100%;
+	height: 50px;
+	float: left;
+	border: 2px solid silver;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: #1D1D1D;
+}
+.item {
+	width: calc(100%/3 - 4px);
+	height: 100%;
+	float: left;
+}
+#capital {
+	margin: 9px;
+	text-align: center;
+	font-size: 1.6em;
+	color: white;
+}
+#thor {
+	float: left;
+}
+#america3 {
+	float: right;
+	margin-top: -4px;
+}
+#iron {
+	float: right;
+	margin
+}
+#spider {
+	float: left;
+}
+#First {
+	float: left;
+	height: auto;
+	width: 75%;
+	border: 2px solid silver;
+	border-radius: 5px;
+	background-color: #1D1D1D;
+	margin: 4px;
+}
+#Second {
+	float: left;
+	width: 315px;
+	hight: auto;
+	border: 2px solid silver;
+	border-radius: 5px;
+	background-color: #1D1D1D;
+	font-family: Marker Felt;
+	color: white;
+	margin-top: 5px;
+}
+#good {
+	height: 50px;
+	font-size: 1.4em;
+	font-family: Marker Felt;
+	float: left;
+	padding: 1em;
+	background: url('images/marvel1.jpg') no-repeat;
+	color: white;
+	width: calc(100% - 20px);
+	background-size: cover;
+}
+#UpBlock {
+	width: 100%;
+	font-size: 1.5em;
+	font-family: fantasy;
+	color: white;
+	float: left;
+}
+#leftt {
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 2px solid silver;
+}
+#rightt {
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	border: 2px solid silver;
+}
+.shrift {
+	font-size: 1.7em;
+	font-family:  Marker Felt;
+	color: white;
+	margin: 15px;
+	float: left;
+}
+#america {
+	float: left;
+	margin-top: -10px;
+	margin-left: -5px;
+	
+}
+#america2 {
+	font-size: 1.8em;
+	float: left;
+}
+.News {
+	font-size: 1.4em;
+	font-family: fantasy;
+	color: white;
+	float: left;
+}
+.pulse{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+		opacity: 0.7;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.9);
+		opacity: 0.7;	
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;	
+	}			
+}
+.tossing{
+	animation-name: tossing;
+	-webkit-animation-name: tossing;	
+
+	animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing {
+	0% {
+		transform: rotate(-4deg);	
+	}
+	50% {
+		transform: rotate(4deg);
+	}
+	100% {
+		transform: rotate(-4deg);	
+	}						
+}
+
+@-webkit-keyframes tossing {
+	0% {
+		-webkit-transform: rotate(-4deg);	
+	}
+	50% {
+		-webkit-transform: rotate(4deg);
+	}
+	100% {
+		-webkit-transform: rotate(-4deg);	
+	}				
+}
