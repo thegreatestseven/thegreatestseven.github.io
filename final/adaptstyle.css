@@ -71,6 +71,7 @@ html {
 	color: white;
 	width: calc(100% - 20px);
 	background-size: cover;
+	border-bottom: 3px solid silver;
 }
 #UpBlock {
 	width: 100%;
