@@ -41,7 +41,7 @@ html {
 #spider {
 	float: left;
 }
-#First {
+	#First {
 	float: left;
 	height: auto;
 	width: calc(75% - 70px);
@@ -53,7 +53,7 @@ html {
 #Second {
 	float: right;
 	width: 280px;
-	hight: auto;
+	height: auto;
 	border: 2px solid silver;
 	border-radius: 5px;
 	background-color: #1D1D1D;
@@ -92,6 +92,13 @@ html {
 	margin-right: 5px;
 	border: 2px solid silver;
 }
+
+.shrift1 {
+	font-size: 1.7em;
+	font-family:  Marker Felt;
+	color: white;
+	margin: 15px;
+}
 .shrift {
 	font-size: 1.7em;
 	font-family:  Marker Felt;
@@ -107,13 +114,13 @@ html {
 }
 #america2 {
 	font-size: 1.8em;
-	float: left;
+	font-family: fantasy;
+	color: white;
 }
 .News {
 	font-size: 1.4em;
 	font-family: fantasy;
 	color: white;
-	float: left;
 }
 .pulse{
 	animation-name: pulse;
